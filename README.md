@@ -1,5 +1,7 @@
 # QuakeWatch
 
+**Live demo:** https://earthquakewatch.onrender.com
+
 Dashboard tërmetesh në kohë reale me Django. Të dhënat vijnë nga API-ja publike e USGS.
 
 ## Funksionet
@@ -14,7 +16,7 @@ Python, Django, SQLite/PostgreSQL, Leaflet, Chart.js, USGS GeoJSON API
 
 ## Instalimi
 ```bash
-python -m venv venv
+python -m venv MyEnv
 venv\Scripts\activate        # Windows
 pip install -r requirements.txt
 python manage.py migrate
