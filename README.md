@@ -16,8 +16,10 @@ Python, Django, SQLite/PostgreSQL, Leaflet, Chart.js, USGS GeoJSON API
 
 ## Instalimi
 ```bash
-python -m venv MyEnv
-venv\Scripts\activate        # Windows
+git clone https://github.com/RenatoCaushi/quakewatch.git
+cd quakewatch
+python -m venv myEnv
+myEnv\Scripts\activate        # Windows
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py fetch_earthquakes
